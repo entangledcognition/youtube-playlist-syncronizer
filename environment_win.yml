@@ -1,0 +1,28 @@
+name: youtube-playlist-sync
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2019.11.27=0
+  - certifi=2019.11.28=py37_0
+  - click=7.0=py37_0
+  - flask=1.1.1=py_0
+  - flask-cors=3.0.8=py_0
+  - itsdangerous=1.1.0=py37_0
+  - jinja2=2.10.3=py_0
+  - markupsafe=1.1.1=py37he774522_0
+  - openssl=1.1.1d=he774522_3
+  - pip=19.3.1=py37_0
+  - python=3.7.6=h60c2a47_2
+  - setuptools=44.0.0=py37_0
+  - six=1.13.0=py37_0
+  - sqlite=3.30.1=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_1
+  - werkzeug=0.16.0=py_0
+  - wheel=0.33.6=py37_0
+  - wincertstore=0.2=py37_0
+  - pip:
+    - pprint==0.1
+    - pytube==9.5.3
+prefix: C:\Users\bhara\.conda\envs\youtube-playlist-sync
+
