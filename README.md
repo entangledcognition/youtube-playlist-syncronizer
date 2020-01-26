@@ -6,7 +6,7 @@
   <img src="https://github.com/nficano/pytube/blob/master/images/pytube.png?raw=true" width="350" height="328" alt="pytube logo" />
   </p>
 </div>
-
+ 
 ## Motivation
 We always have a habbit of structuring our content based on the genre of file/video.
 Yotube playlist is one of them, where we love to group videos based on our interests.
