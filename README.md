@@ -35,7 +35,7 @@ You just need to install this app and it helps in following possible ways
     
 ### Running the project 
 1. Run Google-login.py and it creates user_playlist.json file
-2. Run utils.py and it creates folders and started syncing viedos in selected parent directory 
+2. Run utils.py and it creates folders and started syncing videos in selected parent directory 
 
 Note: It is always better to run this program in vpn network.
 
