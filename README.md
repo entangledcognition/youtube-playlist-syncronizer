@@ -5,9 +5,6 @@
   <p>
   <img src="https://github.com/nficano/pytube/blob/master/images/pytube.png?raw=true" width="350" height="328" alt="pytube logo" />
   </p>
-  <p align="center">
-	  <a href="https://pypi.python.org/pypi/pytube/"><img src="https://img.shields.io/pypi/pyversions/pytube.svg" /></a>
-  </p>
 </div>
 
 ## Motivation
