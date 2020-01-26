@@ -1,25 +1,49 @@
-from Tkinter import *
-import Tkinter
-import Tkconstants
-import tkFileDialog
 
-root = Tk()
+import sys
+import os
+import platform
 
-root.geometry('350x200')
-root.title("Welcome to Youtube PLaylist Synchronizer")
+  
+from tkinter import *
+from tkinter import filedialog
+from tkinter import messagebox
 
-lbl = Label(root, text="Hello", font=("Arial Bold", 50))
+from youtube_login import loginToGoogle
+from utils import createFolderForPlaylist
+
+
+# Platforms
+WINDOWS = (platform.system() == "Windows")
+LINUX = (platform.system() == "Linux")
+MAC = (platform.system() == "Darwin")
+
+window = Tk()
+
+
+window.title("Youtube Playlist Synchronizer")
+
+lbl = Label(window, text="Welcome to Youtube Playlist Synchronizer", font=("Arial Bold", 10))
 lbl.grid(column=0, row=0)
 
 
 def clicked():
-    lbl.configure(text="Button was clicked !!")
+    googlePermissionUrl = loginToGoogle()
+
+def startSyncing():
+    window.directory = filedialog.askdirectory()
+    response = messagebox.askquestion("Confirmation","you have selected: "+ window.directory +" as root Directory and youtube playlist will be added as sub folders inside "+ window.directory +"/, Sre you sure ")
+    if response == 1:
+        createFolderForPlaylist(window.directory)
+    else:
+        print ("You are concious")
+    print (window.directory)
+
+btn = Button(window, text="Google Login to sync playlist from ", bg="#06c", fg="white", command=clicked)
+btn.grid( row=2,columnspan = 1)
+btn = Button(window, text="Start Syncing", bg="#06c", fg="white", command=startSyncing)
+btn.grid( row=3)
 
 
-btn = Button(root, text="Click Me", bg="orange", fg="red", command=clicked)
-btn.grid(column=1, row=0)
+window.mainloop()
 
-root.filename = filedialog.askdirectory()
 
-root.mainloop()
-print(root.filename)

@@ -3,16 +3,14 @@ from pprint import pprint
 import json
 import sys,os
 
-
-
-def createFolderForPlaylist():
+def createFolderForPlaylist(rootDir):
     with open('user_playlist.json') as playlist:
         playlist_serilaized = json.load(playlist)
         for playlist in playlist_serilaized['items']:
             snippet = playlist['snippet']
             title = snippet['title']
             id= playlist['id']
-            baseFolder = 'D:\\youtube-sync\\'+title
+            baseFolder = rootDir+'/'+title
             print(baseFolder)
             if not os.path.exists(baseFolder):
                 os.makedirs(baseFolder)     

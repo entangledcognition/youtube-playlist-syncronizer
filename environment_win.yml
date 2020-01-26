@@ -2,6 +2,7 @@ name: youtube-playlist-sync
 channels:
   - defaults
 dependencies:
+  - autopep8=1.4.4=py_0
   - ca-certificates=2019.11.27=0
   - certifi=2019.11.28=py37_0
   - click=7.0=py37_0
@@ -12,17 +13,42 @@ dependencies:
   - markupsafe=1.1.1=py37he774522_0
   - openssl=1.1.1d=he774522_3
   - pip=19.3.1=py37_0
+  - pycodestyle=2.5.0=py37_0
   - python=3.7.6=h60c2a47_2
   - setuptools=44.0.0=py37_0
   - six=1.13.0=py37_0
   - sqlite=3.30.1=he774522_0
+  - tk=8.6.8=hfa6e2cd_0
   - vc=14.1=h0510ff6_4
   - vs2015_runtime=14.16.27012=hf0eaf9b_1
   - werkzeug=0.16.0=py_0
   - wheel=0.33.6=py37_0
   - wincertstore=0.2=py37_0
   - pip:
+    - altgraph==0.17
+    - cachetools==4.0.0
+    - chardet==3.0.4
+    - future==0.18.2
+    - gdata==2.0.18
+    - google-api-python-client==1.7.11
+    - google-auth==1.10.1
+    - google-auth-httplib2==0.0.3
+    - google-auth-oauthlib==0.4.1
+    - httplib2==0.16.0
+    - idna==2.8
+    - oauthlib==3.1.0
+    - pefile==2019.4.18
+    - pillow==7.0.0
     - pprint==0.1
+    - pyasn1==0.4.8
+    - pyasn1-modules==0.2.8
+    - pyinstaller==3.6
     - pytube==9.5.3
+    - pywin32-ctypes==0.2.0
+    - requests==2.22.0
+    - requests-oauthlib==1.3.0
+    - rsa==4.0
+    - uritemplate==3.0.1
+    - urllib3==1.25.7
 prefix: C:\Users\bhara\.conda\envs\youtube-playlist-sync
 
