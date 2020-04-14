@@ -42,17 +42,20 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 change code as per python pytube C:\Users\bhara\.conda\envs\youtube-playlist-sync\Lib\site-packages\pytube
 
 ```python
->>> #to create a environment file, it will overide the existing env file
->>> conda env export  >  environment_win.yml
->>> #update
->>> conda env update --prefix --file environment_win.yml  --prune
+#to create a environment file, it will overide the existing env file
+conda env export  >  environment_win.yml
+#update
+conda env update --prefix --file environment_win.yml  --prune
+# Install your top level package myproject using pip. The trick is to use the -e flag when doing the install. This way it is installed in an editable state, and all the edits made to the .py files will be automatically included in the installed package.
+pip install -e .
+pip freeze
 ```
 
-to create a execuatble follow the bleow mentioned process
+to create a execuatble follow the below mentioned process
 
 ```python
  >>> # to create exe
- >>> pyinstaller --onefile youtube-playlist-synchronizer.py
+ >>> pyinstaller --onefile --noconsole .\youtube_synchronizer\interfaces\youtube-playlist-synchronizer.py
  >>> # to re-create from spec file after exe is created
  >>> pyinstaller youtube-playlist-synchronizer.spec
 ```
