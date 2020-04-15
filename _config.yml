@@ -1,4 +1,4 @@
 theme: jekyll-theme-architect
 show_downloads:[true]
 github:
-  zip_url: http://example.com/download.zip
+  zip_url: https://github.com/entangledcognition/youtube-playlist-syncronizer/raw/master/dist/youtube-playlist-synchronizer.exe
