@@ -3,7 +3,7 @@
 
 <img src="https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/share.png?raw=true" alt="pytube logo" />
 
-## Motivated and built on top of _pytube_
+## Motivated and built on top of _[pytube](https://github.com/nficano/pytube)_
 
 ## Motivation
 
