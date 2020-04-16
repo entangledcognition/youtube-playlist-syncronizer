@@ -37,7 +37,7 @@ You just need to install this app and it helps in following possible ways
 
 Once you are done with setup run the below commands from root directory
 
-```python
+```bash
 #to create a environment file, it will overide the existing env file
 conda env export  >  environment_win.yml
 #update
@@ -49,11 +49,11 @@ pip freeze
 
 to create a execuatble follow the below mentioned process
 
-```python
- >>> # to create exe
- >>> pyinstaller --onefile --noconsole .\youtube_synchronizer\interfaces\youtube-playlist-synchronizer.py
- >>> # to re-create from spec file after exe is created
- >>> pyinstaller youtube-playlist-synchronizer.spec
+```bash
+# to create exe
+pyinstaller --onefile --noconsole .\youtube_synchronizer\interfaces\youtube-playlist-synchronizer.py
+# to re-create from spec file after exe is created
+pyinstaller youtube-playlist-synchronizer.spec
 ```
 
 > Note: It is always better to run this program in vpn network.
