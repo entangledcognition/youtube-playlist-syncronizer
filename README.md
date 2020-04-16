@@ -1,6 +1,7 @@
 
 # Youtube playlist synchronizer
-<img src="https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/share.png?raw=true" width="350" height="328" alt="pytube logo" />
+
+<img src="https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/share.png?raw=true" alt="pytube logo" />
 
 ## Motivated and built on top of _pytube_
 
