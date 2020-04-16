@@ -1,14 +1,11 @@
 
 # Youtube playlist synchronizer
+<img src="https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/share.png?raw=true" width="350" height="328" alt="pytube logo" />
 
-## Motivated and built on top of pytube
-<div align="center">
-  <p>
-  <img src="https://github.com/nficano/pytube/blob/master/images/pytube.png?raw=true" width="350" height="328" alt="pytube logo" />
-  </p>
-</div>
- 
+## Motivated and built on top of _pytube_
+
 ## Motivation
+
 We always have a habbit of structuring our content based on the genre of file/video.
 Yotube playlist is one of them, where we love to group videos based on our interests.
 
