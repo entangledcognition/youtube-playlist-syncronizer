@@ -18,10 +18,14 @@ Whatever the reasons might be, we lose a lovely song/video.
 
 So This youtube synchronizer helps you in synchronizing the playlist to your local computer drive.
 You just need to install this app and it helps in following possible ways 
-1.  sync your gmail wehich you have linked to youtube 
+1.  sync your google which you have linked to youtube 
 2.  Download youtube playlist or youtube video downloader
+3.  Re-sync the playlist whenever there are updates.
 
-# steps to setup local development
+## Executables
+1. Windows - [here](https://github.com/entangledcognition/youtube-playlist-syncronizer/releases/download/v1.0.0-beta.1/youtube-playlist-synchronizer.exe)
+
+## Local Installation guide
 
 ### Pre-Requisites for setting up DEV Environment
 1. Install anaconda version 
@@ -30,15 +34,8 @@ You just need to install this app and it helps in following possible ways
 4. Open vscode and add python interprerter from ctrl+shift+p and add conda env.
     
 ### Running the project 
-1. Run Google-login.py and it creates user_playlist.json file
-2. Run utils.py and it creates folders and started syncing videos in selected parent directory 
 
-Note: It is always better to run this program in vpn network.
-
-
-please go throuugh for more details 
-https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually
-change code as per python pytube C:\Users\bhara\.conda\envs\youtube-playlist-sync\Lib\site-packages\pytube
+Once you are done with setup run the below commands from root directory
 
 ```python
 #to create a environment file, it will overide the existing env file
@@ -58,3 +55,6 @@ to create a execuatble follow the below mentioned process
  >>> # to re-create from spec file after exe is created
  >>> pyinstaller youtube-playlist-synchronizer.spec
 ```
+
+> Note: It is always better to run this program in vpn network.
+
