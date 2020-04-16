@@ -1,6 +1,8 @@
 
 # Youtube playlist synchronizer
 
+[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/LICENSE)
+
 <img src="https://github.com/entangledcognition/youtube-playlist-syncronizer/blob/master/share.png?raw=true" alt="pytube logo" />
 
 ## Motivated and built on top of _[pytube](https://github.com/nficano/pytube)_
